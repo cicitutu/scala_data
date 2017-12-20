@@ -7,15 +7,15 @@
 		revision="2.0.2"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20171215161037"/>
+		date="20171220114219"/>
 	<dependencies>
 		<module organisation="com.github.wangzaixiang" name="scala-sql_2.12">
-			<revision name="2.0.2" status="release" pubdate="20171127091212" resolver="nexus-aliyun" artresolver="nexus-aliyun" homepage="http://github.com/wangzaixiang/scala-sql" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+			<revision name="2.0.2" status="release" pubdate="20171127091212" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/wangzaixiang/scala-sql" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
 				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
-				<metadata-artifact status="successful" details="" size="2719" time="337" location="C:\Users\tys\.ivy2\cache\com.github.wangzaixiang\scala-sql_2.12\ivy-2.0.2.xml" searched="true" original-local-location="C:\Users\tys\.ivy2\cache\com.github.wangzaixiang\scala-sql_2.12\ivy-2.0.2.xml.original" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/com/github/wangzaixiang/scala-sql_2.12/2.0.2/scala-sql_2.12-2.0.2.pom"/>
+				<metadata-artifact status="no" details="" size="3462" time="0" location="C:\Users\tys\.ivy2\cache\com.github.wangzaixiang\scala-sql_2.12\ivy-2.0.2.xml" searched="false" origin-is-local="false" origin-location="http://maven.aliyun.com/nexus/content/groups/public/com/github/wangzaixiang/scala-sql_2.12/2.0.2/scala-sql_2.12-2.0.2.pom"/>
 				<caller organisation="scala-sql" name="scala-sql_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="2.0.2"/>
 				<artifacts>
-					<artifact name="scala-sql_2.12" type="jar" ext="jar" status="successful" details="" size="156112" time="664" location="C:\Users\tys\.ivy2\cache\com.github.wangzaixiang\scala-sql_2.12\jars\scala-sql_2.12-2.0.2.jar">
+					<artifact name="scala-sql_2.12" type="jar" ext="jar" status="no" details="" size="156112" time="0" location="C:\Users\tys\.ivy2\cache\com.github.wangzaixiang\scala-sql_2.12\jars\scala-sql_2.12-2.0.2.jar">
 						<origin-location is-local="false" location="http://maven.aliyun.com/nexus/content/groups/public/com/github/wangzaixiang/scala-sql_2.12/2.0.2/scala-sql_2.12-2.0.2.jar"/>
 					</artifact>
 				</artifacts>

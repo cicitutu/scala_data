@@ -1,20 +1,20 @@
 package model
 
-object main {
-  def main(args: Array[String]): Unit = {
-    /*
+object main extends App{
+    /**
+      * 12.20
       全年级的学生
      */
     val s = JdbcData.findAllStudent()
-    /*
-       一班的学生
+    /**
+       一班学生
      */
     val sone = JdbcData.findOneClassesStudent()
-    /*
+    /**
       二班学生
      */
     val stwo = JdbcData.findTwoClassesStudent()
-    /*
+    /**
       三班学生
      */
     val sthree = JdbcData.findThreeClassesStudent()
@@ -96,7 +96,7 @@ object main {
     Method.EnglishTop1(s)
     println("--------------------------------")
     Method.MathematicsTop1(s)
-  }
+
 //  def TotalTop5(l: List[Student]): Unit = {
 //    val L = l.sortWith((a: Student, b: Student) => a.chinese + a.english + a.mathematics > b.english + b.mathematics + b.chinese)
 //    println("总分第一名是：" + L(0).name + "分数是：" + (L(0).chinese + L(0).english + L(0).mathematics))

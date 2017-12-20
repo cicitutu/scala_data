@@ -1,5 +1,15 @@
 package model
 
+/**
+  *  12.20学生类
+  * @param id
+  * @param name
+  * @param sex
+  * @param chinese
+  * @param mathematics
+  * @param english
+  * @param theClasses
+  */
 case class Student ( id : Int,
                 name : String ,
                 sex : String,
